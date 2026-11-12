@@ -8,6 +8,9 @@
 | **Replaces** | Nothing. This is the first note. |
 | **Read time** | About 15 minutes |
 
+This note is published at
+<https://whalermike.github.io/fmw-research/inbox/001-start-package/>.
+
 This note gives you everything you need to help run the ServiceNow sandbox test packs inside
 the work environment, without needing access to the public internet. Key facts are written out
 in full here; links are for reference only.
@@ -118,9 +121,20 @@ inside the network, where it runs as a Windows service.
 
 ## 5. The five packs
 
-The full packs come in a zip (`fmw-sandbox-packs-2026-11-12.zip`) with `README.txt`,
-`README-overview.md`, `pack-1` to `pack-5`, `results-template.md` and `LICENSE.md`. Run them in
-order. Packs 2 and 5 depend on pack 1.
+The full packs are web pages on the research site:
+
+| Pack | Web page |
+|---|---|
+| Overview | <https://whalermike.github.io/fmw-research/sandbox/> |
+| 1. MID Server running as a gMSA | <https://whalermike.github.io/fmw-research/sandbox/pack-1-mid-server-gmsa/> |
+| 2. Service account for on-premises reads | <https://whalermike.github.io/fmw-research/sandbox/pack-2-service-account-credential/> |
+| 3. Scheduled job on workdays | <https://whalermike.github.io/fmw-research/sandbox/pack-3-scheduled-workdays/> |
+| 4. Graph from the instance with a certificate | <https://whalermike.github.io/fmw-research/sandbox/pack-4-graph-certificate/> |
+| 5. Report as a record plus instance email | <https://whalermike.github.io/fmw-research/sandbox/pack-5-record-and-email/> |
+| Results template | <https://whalermike.github.io/fmw-research/sandbox/results-template/> |
+
+They also come as a zip (`fmw-sandbox-packs-2026-11-12.zip`) for anyone who can download from
+GitHub. Run them in order. Packs 2 and 5 depend on pack 1.
 
 **All steps are drafts.** They come from ServiceNow and Microsoft documentation and community
 reports, not from a run in a real instance. Menu names and script APIs differ between

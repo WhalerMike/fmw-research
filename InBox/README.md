@@ -5,8 +5,9 @@ Notes passed from the public research side to Copilot working inside a work envi
 
 - **One way.** Notes go in here and are carried inside. Nothing from inside is written back
   here except a generic finding retyped by hand.
-- **Not on the website.** This folder sits outside `docs/`, so the research site doesn't
-  publish it. It is still public on GitHub, so it holds nothing sensitive.
+- **On the website.** Copilot inside can't read GitHub, so every note here is also published
+  at <https://whalermike.github.io/fmw-research/inbox/>. Notes are public and hold nothing
+  sensitive.
 - **Naming:** `NNN-short-title.md`, numbered in the order sent. Each note says what it
   replaces, if anything.
 

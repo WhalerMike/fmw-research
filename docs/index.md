@@ -28,5 +28,10 @@ Five tests that turn the open ServiceNow questions into steps you can run in a s
 with a blank results template. Only a generic finding comes back here. Start with the
 [overview](sandbox/index.md), which also explains what a MID Server is.
 
+## Copilot InBox
+
+Notes written for Copilot working inside a work environment. Start with
+[001 Start package](inbox/001-start-package.md).
+
 The [research log](log.md) lists each question in date order. [Sources](sources.md) lists every
 page the research used.
