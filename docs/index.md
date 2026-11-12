@@ -28,6 +28,8 @@ Five tests that turn the open ServiceNow questions into steps you can run in a s
 with a blank results template. Only a generic finding comes back here. Start with the
 [overview](sandbox/index.md), which also explains what a MID Server is.
 
+[:material-download: Download the sandbox packs (zip)](https://whalermike.github.io/fmw-research/downloads/fmw-sandbox-packs.zip){ .md-button }
+
 ## Copilot InBox
 
 Notes written for Copilot working inside a work environment. Start with

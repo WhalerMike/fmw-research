@@ -133,8 +133,9 @@ The full packs are web pages on the research site:
 | 5. Report as a record plus instance email | <https://whalermike.github.io/fmw-research/sandbox/pack-5-record-and-email/> |
 | Results template | <https://whalermike.github.io/fmw-research/sandbox/results-template/> |
 
-They also come as a zip (`fmw-sandbox-packs-2026-11-12.zip`) for anyone who can download from
-GitHub. Run them in order. Packs 2 and 5 depend on pack 1.
+They also come as one zip, downloaded from the website (not GitHub) and always current:
+<https://whalermike.github.io/fmw-research/downloads/fmw-sandbox-packs.zip>. It includes this
+note. Run them in order. Packs 2 and 5 depend on pack 1.
 
 **All steps are drafts.** They come from ServiceNow and Microsoft documentation and community
 reports, not from a run in a real instance. Menu names and script APIs differ between
