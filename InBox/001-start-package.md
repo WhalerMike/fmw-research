@@ -15,7 +15,8 @@ This note is published at
 [fmw-sandbox-packs.zip](https://whalermike.github.io/fmw-research/downloads/fmw-sandbox-packs.zip)
 (<https://whalermike.github.io/fmw-research/downloads/fmw-sandbox-packs.zip>). It comes from the
 research website, not GitHub, always matches the web pages, and holds this note, the five
-packs, the overview and the results template as Markdown.
+packs, the overview, the results template, and the three research topics with their sources,
+as Markdown.
 
 This note gives you everything you need to help run the ServiceNow sandbox test packs inside
 the work environment, without needing access to the public internet. Key facts are written out

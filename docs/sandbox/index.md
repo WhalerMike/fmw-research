@@ -61,7 +61,8 @@ Run them in order. Packs 2 and 5 need pack 1; pack 5 can use pack 3's schedule.
 The zip comes from this website, not GitHub, and is rebuilt every time the site changes, so it
 always matches these pages. It holds the Copilot
 [start package](../inbox/001-start-package.md), this overview, the five packs, the results
-template and a `README.txt`, all as Markdown. Every link inside points back to this site.
+template, the three research topics behind them with the sources page, and a `README.txt`,
+all as Markdown. Every link inside points back to this site.
 
 A fixed snapshot is also kept on GitHub as the
 [sandbox-packs-2026-11-12 release](https://github.com/WhalerMike/fmw-research/releases/tag/sandbox-packs-2026-11-12). Nothing at work needs to connect back to this repository.

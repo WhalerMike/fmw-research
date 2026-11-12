@@ -1,4 +1,4 @@
-"""Build the sandbox packs zip into the site on every build.
+"""Build the sandbox packs zip (with the research topics) into the site on every build.
 
 The zip is served from the site itself (downloads/fmw-sandbox-packs.zip), so it can
 be downloaded where GitHub is blocked and always matches the pages. Links between
@@ -56,6 +56,9 @@ Run the packs in order, then record each run in a copy of the results template
 Keep filled-in results on work storage. Only the generic finding at the end of the
 template leaves work, retyped by hand.
 
+Research behind the packs (findings with sources)
+{research}
+
 Website: {base}
 Latest copy of this zip: {base}downloads/{zip}
 License: writing CC BY-NC-ND 4.0; commands and code blocks MIT. See LICENSE.md.
@@ -78,12 +81,21 @@ def on_post_build(config, **kwargs):
         text = _rewrite(f.read_text(encoding="utf-8"), "sandbox")
         files.append((name, _with_address(text, url), url))
 
+    for f in sorted((docs / "topics").glob("*.md")) + [docs / "sources.md"]:
+        rel = f.relative_to(docs).as_posix()
+        name = "topic-" + f.name if rel.startswith("topics/") else f.name
+        url = _url(rel)
+        text = _rewrite(f.read_text(encoding="utf-8"), posixpath.dirname(rel))
+        files.append((name, _with_address(text, url), url))
+
     start = [n for n in files if n[0][0].isdigit() or n[0] == "README-overview.md"]
-    packs = [n for n in files if n not in start]
+    research = [n for n in files if n[0].startswith("topic-") or n[0] == "sources.md"]
+    packs = [n for n in files if n not in start and n not in research]
     line = lambda n: f"  {n[0]:40} {n[2]}"
     readme = README.format(
         start="\n".join(map(line, start)),
         packs="\n".join(map(line, packs)),
+        research="\n".join(map(line, research)),
         base=BASE,
         zip=ZIP_NAME,
     )
