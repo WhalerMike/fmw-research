@@ -1,0 +1,26 @@
+# FMW Research
+
+!!! warning "Research notes, not workbook guidance"
+    This site holds research that sits beside the
+    [Federal Modernization Workbook](https://whalermike.github.io/modernization-workbook/).
+    Nothing here is part of the workbook, and nothing here is a recommendation for any
+    organization. Findings can change as sources change. Check each source before you rely on it.
+
+The project asks questions about what cloud and service-management tools can do for federal
+modernization work, and records the answers with their sources. Some findings may later be
+rewritten into the workbook. Until that happens, they stay here. See
+[How this project works](about.md).
+
+All research assumes **Microsoft 365 GCC Moderate** or an equivalent tenant. GCC High and DoD
+appear only as side notes.
+
+## Topics
+
+| Topic | Question | Status |
+|---|---|---|
+| [AI bot costs](topics/ai-bot-costs.md) | What does an AI bot or agent cost, by service? | Findings |
+| [Microsoft 365 Copilot compared with AI agents](topics/copilot-vs-agents-gcc-moderate.md) | What does Copilot already cover in GCC Moderate, and when is a separate agent needed? | Findings |
+| [Scheduling a daily report job](topics/daily-report-scheduling.md) | Can a daily report job that runs as a gMSA move to a cloud schedule or to ServiceNow? | Findings |
+
+The [research log](log.md) lists each question in date order. [Sources](sources.md) lists every
+page the research used.
