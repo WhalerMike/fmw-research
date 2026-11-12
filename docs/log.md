@@ -6,6 +6,8 @@ Newest first. Each entry is a question asked and where the answer lives.
 
 | Question | Answer |
 |---|---|
+| What is a MID Server? | [ServiceNow sandbox overview](sandbox/index.md#what-is-a-mid-server) |
+| Turn the open ServiceNow questions into tests for a sandbox at work. | [Five sandbox test packs](sandbox/index.md) (all Open) |
 | How about an automated task in ServiceNow for the daily report? | [Scheduling a daily report job, option 4](topics/daily-report-scheduling.md#option-4-a-servicenow-scheduled-flow) |
 | Can a daily report that runs as a gMSA become a scheduled cloud task instead? | [Scheduling a daily report job, options 1 to 3](topics/daily-report-scheduling.md) |
 | Compare AI bots with Microsoft 365 Copilot, which GCC Moderate already covers. | [Microsoft 365 Copilot compared with AI agents](topics/copilot-vs-agents-gcc-moderate.md) |

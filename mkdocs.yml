@@ -45,4 +45,12 @@ nav:
       - AI bot costs: topics/ai-bot-costs.md
       - Microsoft 365 Copilot compared with AI agents: topics/copilot-vs-agents-gcc-moderate.md
       - Scheduling a daily report job: topics/daily-report-scheduling.md
+  - ServiceNow sandbox:
+      - Overview and what a MID Server is: sandbox/index.md
+      - 1. MID Server running as a gMSA: sandbox/pack-1-mid-server-gmsa.md
+      - 2. Service account for on-premises reads: sandbox/pack-2-service-account-credential.md
+      - 3. Scheduled job on workdays: sandbox/pack-3-scheduled-workdays.md
+      - 4. Graph with a certificate: sandbox/pack-4-graph-certificate.md
+      - 5. Report record and instance email: sandbox/pack-5-record-and-email.md
+      - Results template: sandbox/results-template.md
   - Sources: sources.md

@@ -22,5 +22,11 @@ appear only as side notes.
 | [Microsoft 365 Copilot compared with AI agents](topics/copilot-vs-agents-gcc-moderate.md) | What does Copilot already cover in GCC Moderate, and when is a separate agent needed? | Findings |
 | [Scheduling a daily report job](topics/daily-report-scheduling.md) | Can a daily report job that runs as a gMSA move to a cloud schedule or to ServiceNow? | Findings |
 
+## ServiceNow sandbox test packs
+
+Five tests that turn the open ServiceNow questions into steps you can run in a sandbox at work,
+with a blank results template. Only a generic finding comes back here. Start with the
+[overview](sandbox/index.md), which also explains what a MID Server is.
+
 The [research log](log.md) lists each question in date order. [Sources](sources.md) lists every
 page the research used.
