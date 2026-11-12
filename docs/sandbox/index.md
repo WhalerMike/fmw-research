@@ -59,7 +59,7 @@ Run them in order. Packs 2 and 5 need pack 1; pack 5 can use pack 3's schedule.
 [:material-download: Download the sandbox packs (zip)](https://whalermike.github.io/fmw-research/downloads/fmw-sandbox-packs.zip){ .md-button .md-button--primary }
 
 The zip comes from this website, not GitHub, and is rebuilt every time the site changes, so it
-always matches these pages. It holds the Copilot
+always matches these pages. It holds the [InBox overview](../inbox/index.md), the Copilot
 [start package](../inbox/001-start-package.md), this overview, the five packs, the results
 template, the three research topics behind them with the sources page, and a `README.txt`,
 all as Markdown. Every link inside points back to this site.

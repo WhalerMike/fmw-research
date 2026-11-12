@@ -70,6 +70,12 @@ def on_post_build(config, **kwargs):
     docs = pathlib.Path(config["docs_dir"])
     files = []  # (name in zip, text, url)
 
+    readme_in = root / "InBox" / "README.md"
+    if readme_in.exists():
+        url = _url("inbox/index.md")
+        text = _rewrite(readme_in.read_text(encoding="utf-8"), "inbox")
+        files.append(("inbox-overview.md", _with_address(text, url), url))
+
     for f in sorted((root / "InBox").glob("[0-9]*.md")):
         url = _url("inbox/" + f.name)
         text = _rewrite(f.read_text(encoding="utf-8"), "inbox")
@@ -88,7 +94,7 @@ def on_post_build(config, **kwargs):
         text = _rewrite(f.read_text(encoding="utf-8"), posixpath.dirname(rel))
         files.append((name, _with_address(text, url), url))
 
-    start = [n for n in files if n[0][0].isdigit() or n[0] == "README-overview.md"]
+    start = [n for n in files if n[0][0].isdigit() or n[0] in ("README-overview.md", "inbox-overview.md")]
     research = [n for n in files if n[0].startswith("topic-") or n[0] == "sources.md"]
     packs = [n for n in files if n not in start and n not in research]
     line = lambda n: f"  {n[0]:40} {n[2]}"

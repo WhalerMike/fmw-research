@@ -8,6 +8,9 @@ Notes passed from the public research side to Copilot working inside a work envi
 - **On the website.** Copilot inside can't read GitHub, so every note here is also published
   at <https://whalermike.github.io/fmw-research/inbox/>. Notes are public and hold nothing
   sensitive.
+- **In the zip.** This overview and every numbered note are also in the download
+  <https://whalermike.github.io/fmw-research/downloads/fmw-sandbox-packs.zip>, as
+  `inbox-overview.md` and `NNN-short-title.md`.
 - **Naming:** `NNN-short-title.md`, numbered in the order sent. Each note says what it
   replaces, if anything.
 
