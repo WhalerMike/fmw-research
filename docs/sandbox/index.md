@@ -56,6 +56,6 @@ Run them in order. Packs 2 and 5 need pack 1; pack 5 can use pack 3's schedule.
 
 ## Getting the packs to work
 
-Download the repository as a zip from
-[GitHub](https://github.com/WhalerMike/fmw-research/archive/refs/heads/main.zip), or copy the
-pages you need. Nothing at work needs to connect back to this repository.
+Download the packs as one zip from the
+[sandbox-packs-2026-11-12 release](https://github.com/WhalerMike/fmw-research/releases/tag/sandbox-packs-2026-11-12)
+(Markdown, with links back to this site), or copy the pages you need. Nothing at work needs to connect back to this repository.
