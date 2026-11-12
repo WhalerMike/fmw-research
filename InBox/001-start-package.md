@@ -124,6 +124,10 @@ inside the network, where it runs as a Windows service.
 - The Windows service is normally named `snc_mid_<mid-server-name>`. Logs are in
   `<install-folder>\agent\logs\`, main file `agent0.log.0`.
 
+A fuller explanation, with a diagram, is at
+<https://whalermike.github.io/fmw-research/sandbox/what-is-a-mid-server/> and in the zip as
+`what-is-a-mid-server.md`.
+
 ---
 
 ## 5. The five packs

@@ -94,7 +94,7 @@ def on_post_build(config, **kwargs):
         text = _rewrite(f.read_text(encoding="utf-8"), posixpath.dirname(rel))
         files.append((name, _with_address(text, url), url))
 
-    start = [n for n in files if n[0][0].isdigit() or n[0] in ("README-overview.md", "inbox-overview.md")]
+    start = [n for n in files if n[0][0].isdigit() or n[0] in ("README-overview.md", "inbox-overview.md", "what-is-a-mid-server.md")]
     research = [n for n in files if n[0].startswith("topic-") or n[0] == "sources.md"]
     packs = [n for n in files if n not in start and n not in research]
     line = lambda n: f"  {n[0]:40} {n[2]}"

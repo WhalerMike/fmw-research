@@ -50,6 +50,7 @@ nav:
       - Scheduling a daily report job: topics/daily-report-scheduling.md
   - ServiceNow sandbox:
       - Overview and what a MID Server is: sandbox/index.md
+      - What is a MID Server?: sandbox/what-is-a-mid-server.md
       - 1. MID Server running as a gMSA: sandbox/pack-1-mid-server-gmsa.md
       - 2. Service account for on-premises reads: sandbox/pack-2-service-account-credential.md
       - 3. Scheduled job on workdays: sandbox/pack-3-scheduled-workdays.md

@@ -42,6 +42,8 @@ on a Windows or Linux server **inside** your network. It runs as a Windows servi
 In the daily report design, the MID Server does the on-premises reads that today's scheduled
 task does, and the instance does the schedule, the record and the mail.
 
+For a fuller explanation with a diagram, see [What is a MID Server?](what-is-a-mid-server.md)
+
 ## The packs
 
 | Pack | Question it answers | Status |
