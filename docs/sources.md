@@ -1,6 +1,7 @@
 # Sources
 
-Every page the research used, grouped by publisher. Last checked 2026-11-12.
+Every page the research used, grouped by publisher. Last checked 2026-11-12; the Windows Server 2025
+sources 2026-11-13.
 
 ## Microsoft Learn
 
@@ -35,6 +36,32 @@ Every page the research used, grouped by publisher. Last checked 2026-11-12.
 - [Authenticate with managed identity in Logic Apps](https://learn.microsoft.com/azure/logic-apps/authenticate-with-managed-identity)
 - [Cloud feature availability: Microsoft 365 integration](https://learn.microsoft.com/azure/security/fundamentals/feature-availability#microsoft-365-integration)
 
+### Windows Server 2025 retirements
+- [Features removed or no longer developed in Windows Server](https://learn.microsoft.com/windows-server/get-started/removed-deprecated-features-windows-server)
+- [What's new in Windows Server 2025](https://learn.microsoft.com/windows-server/get-started/whats-new-windows-server-2025)
+- [Features and functionality removed in Windows client](https://learn.microsoft.com/windows/whats-new/removed-features)
+- [Protocols in TLS/SSL (Schannel SSP)](https://learn.microsoft.com/windows/win32/secauthn/protocols-in-tls-ssl--schannel-ssp-)
+- [TLS 1.0 and TLS 1.1 deprecation in Windows](https://learn.microsoft.com/windows/win32/secauthn/tls-10-11-deprecation-in-windows)
+- [SMB security hardening](https://learn.microsoft.com/windows-server/storage/file-server/smb-security-hardening)
+- [Control SMB signing behavior](https://learn.microsoft.com/windows-server/storage/file-server/smb-signing)
+- [Detect and remediate RC4 usage in Kerberos](https://learn.microsoft.com/windows-server/security/kerberos/detect-remediate-rc4-kerberos)
+- [Kerberos Unsupported etype error](https://learn.microsoft.com/troubleshoot/windows-server/windows-security/unsupported-etype-error-accessing-trusted-domain)
+- [Delegated Managed Service Accounts overview](https://learn.microsoft.com/windows-server/identity/ad-ds/manage/delegated-managed-service-accounts/delegated-managed-service-accounts-overview)
+- [Delegated Managed Service Accounts FAQ](https://learn.microsoft.com/windows-server/identity/ad-ds/manage/delegated-managed-service-accounts/delegated-managed-service-accounts-faq)
+- [Microsoft Entra Seamless single sign-on: how it works](https://learn.microsoft.com/entra/identity/hybrid/connect/how-to-connect-sso-how-it-works)
+- [Microsoft Entra Cloud Sync prerequisites](https://learn.microsoft.com/entra/identity/hybrid/cloud-sync/how-to-prerequisites)
+
+## Microsoft Support and Microsoft blogs
+
+### Windows Server 2025 retirements
+- [KB5073381: Kerberos KDC usage of RC4, CVE-2026-20833](https://support.microsoft.com/kb/5073381)
+- [KB5066470: Manage NTLMv1 changes](https://support.microsoft.com/help/5066470)
+- [AskDS: What is going on with RC4 in Kerberos?](https://techcommunity.microsoft.com/blog/askds/what-is-going-on-with-rc4-in-kerberos/4489365)
+- [Beyond RC4 for Windows authentication](https://www.microsoft.com/en-us/windows-server/blog/2025/12/03/beyond-rc4-for-windows-authentication)
+- [Advancing Windows security: disabling NTLM by default](https://techcommunity.microsoft.com/blog/windows-itpro-blog/advancing-windows-security-disabling-ntlm-by-default/4489526)
+- [Continuing WSUS support for driver synchronization](https://techcommunity.microsoft.com/blog/windows-itpro-blog/continuing-wsus-support-for-driver-synchronization/4401042)
+- [microsoft/Kerberos-Crypto scripts](https://github.com/microsoft/Kerberos-Crypto)
+
 ## ServiceNow
 
 ### Documentation
@@ -54,6 +81,11 @@ Every page the research used, grouped by publisher. Last checked 2026-11-12.
 - [Starting MID Server with gMSA gives error 1069](https://www.servicenow.com/community/itom-forum/starting-midserver-with-gmsa-account-gives-error-1069/m-p/2534577)
 - [AD v2 spoke authentication fails with MID Server service account](https://www.servicenow.com/community/developer-forum/ad-v2-spoke-authentication-failed-when-using-mid-server-service/m-p/3604031)
 - [Scheduled flow on workdays](https://www.servicenow.com/community/developer-forum/scheduled-flow-on-workdays/m-p/2161492)
+
+## Other publishers (not Microsoft, used only to flag gaps)
+- [AD trust: "The other domain supports Kerberos AES Encryption" explained](https://rickardnobel.se/ad-trust-the-other-domain-supports-kerberos-aes-explained/)
+- [Kerberos encryption type calculator](https://strongwind1.github.io/Kerberos/security/etype-calculator)
+- [Windows 11 IAKerb and Local KDC to reduce NTLM](https://petri.com/windows-11-iakerb-localkdc-reduce-ntlm/)
 
 ## Federal Modernization Workbook (read only)
 - [Ticket to Machine](https://whalermike.github.io/modernization-workbook/docs/books/b13-governance/10-ticket-to-machine.html)

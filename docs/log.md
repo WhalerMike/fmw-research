@@ -2,6 +2,12 @@
 
 Newest first. Each entry is a question asked and where the answer lives.
 
+## 2026-11-13
+
+| Question | Answer |
+|---|---|
+| Where do Microsoft's sources disagree on the Windows Server 2025 retirements, and how can each point be settled? | [Windows Server 2025 retirements: where Microsoft's sources disagree](topics/ws2025-microsoft-source-conflicts.md) (Open) |
+
 ## 2026-11-12
 
 | Question | Answer |

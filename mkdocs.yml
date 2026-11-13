@@ -48,6 +48,7 @@ nav:
       - AI bot costs: topics/ai-bot-costs.md
       - Microsoft 365 Copilot compared with AI agents: topics/copilot-vs-agents-gcc-moderate.md
       - Scheduling a daily report job: topics/daily-report-scheduling.md
+      - "Windows Server 2025 retirements: where Microsoft's sources disagree": topics/ws2025-microsoft-source-conflicts.md
   - ServiceNow sandbox:
       - Overview and what a MID Server is: sandbox/index.md
       - What is a MID Server?: sandbox/what-is-a-mid-server.md

@@ -21,6 +21,7 @@ appear only as side notes.
 | [AI bot costs](topics/ai-bot-costs.md) | What does an AI bot or agent cost, by service? | Findings |
 | [Microsoft 365 Copilot compared with AI agents](topics/copilot-vs-agents-gcc-moderate.md) | What does Copilot already cover in GCC Moderate, and when is a separate agent needed? | Findings |
 | [Scheduling a daily report job](topics/daily-report-scheduling.md) | Can a daily report job that runs as a gMSA move to a cloud schedule or to ServiceNow? | Findings |
+| [Windows Server 2025 retirements: where Microsoft's sources disagree](topics/ws2025-microsoft-source-conflicts.md) | Where do Microsoft's pages disagree about Windows Server 2025 removals and default changes, and how can each point be settled? | Open |
 
 ## ServiceNow sandbox test packs
 
