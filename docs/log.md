@@ -6,6 +6,7 @@ Newest first. Each entry is a question asked and where the answer lives.
 
 | Question | Answer |
 |---|---|
+| Was the Microsoft 365 outage of November 12 and 13 a denial-of-service attack, and what does it mean for the workbook? | [Microsoft 365 outage, November 12 to 13, 2026](topics/m365-outage-2026-11-12.md) (Open) |
 | Where do Microsoft's sources disagree on the Windows Server 2025 retirements, and how can each point be settled? | [Windows Server 2025 retirements: where Microsoft's sources disagree](topics/ws2025-microsoft-source-conflicts.md) (Open) |
 
 ## 2026-11-12

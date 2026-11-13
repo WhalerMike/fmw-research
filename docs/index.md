@@ -22,6 +22,7 @@ appear only as side notes.
 | [Microsoft 365 Copilot compared with AI agents](topics/copilot-vs-agents-gcc-moderate.md) | What does Copilot already cover in GCC Moderate, and when is a separate agent needed? | Findings |
 | [Scheduling a daily report job](topics/daily-report-scheduling.md) | Can a daily report job that runs as a gMSA move to a cloud schedule or to ServiceNow? | Findings |
 | [Windows Server 2025 retirements: where Microsoft's sources disagree](topics/ws2025-microsoft-source-conflicts.md) | Where do Microsoft's pages disagree about Windows Server 2025 removals and default changes, and how can each point be settled? | Open |
+| [Microsoft 365 outage, November 12 to 13, 2026](topics/m365-outage-2026-11-12.md) | Was it a denial-of-service attack, what was affected, and does the workbook's notice handling catch it? | Open |
 
 ## ServiceNow sandbox test packs
 

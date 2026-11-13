@@ -1,7 +1,7 @@
 # Sources
 
 Every page the research used, grouped by publisher. Last checked 2026-11-12; the Windows Server 2025
-sources 2026-11-13.
+sources and the Microsoft 365 outage sources 2026-11-13.
 
 ## Microsoft Learn
 
@@ -93,3 +93,13 @@ sources 2026-11-13.
 - [Service account migration guide](https://whalermike.github.io/modernization-workbook/docs/books/guides/service-account-migration.html)
 - [Book 10 Appendix B: platform host interfaces](https://whalermike.github.io/modernization-workbook/docs/books/b10-cloud-boundary/appendix-b-platform-host-interfaces.html)
 - [Book 15 Ch13: building day-two automation in house](https://whalermike.github.io/modernization-workbook/docs/books/b15-day2-operations/13-building-day-two-automation-in-house.html)
+
+## Microsoft 365 outage, November 12 to 13, 2026
+
+Read 2026-11-13. The topic page marks each source by type.
+
+- [Microsoft service health status](https://status.cloud.microsoft) (Microsoft's public status page)
+- [Azure status history](https://azure.status.microsoft/en-us/status/history/)
+- [How to check Microsoft 365 service health](https://learn.microsoft.com/microsoft-365/enterprise/view-service-health) (Learn)
+- [CISA Known Exploited Vulnerabilities catalog, JSON feed](https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json)
+- Non-Microsoft: [BleepingComputer](https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/), [SecurityWeek](https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/), [Windows Latest](https://www.windowslatest.com/2026/11/13/was-the-microsoft-365-outage-a-hack-microsoft-says-no-it-was-its-own-servers-and-its-copilot-boss-regrets-it/), [Converge Digest](https://convergedigest.com/microsoft-365-outage-second-day-authentication-routing-2026/), [Cybersecurity News](https://cybersecuritynews.com/microsoft-365-massive-outage-fixes-fail-as-restored-servers-keep-going-unresponsive/), [Euronews](https://www.euronews.com/2026/11/13/microsoft-outage-explained-what-went-wrong-and-is-your-data-at-risk)
