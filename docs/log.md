@@ -2,6 +2,12 @@
 
 Newest first. Each entry is a question asked and where the answer lives.
 
+## 2026-11-25
+
+| Question | Answer |
+|---|---|
+| Investigate B2B and B2C, whether G for Government exists, and whether federal, state and local levels are differentiated; then determine G2B, G2C, F2S, F2L and the rest. | [B2B, B2C and G2x: the relationship names](topics/g2x-relationship-taxonomy.md) (Integrated) |
+
 ## 2026-11-13
 
 | Question | Answer |
